@@ -1,6 +1,12 @@
 # SpaceX
 A Java space game application
 
+__Future edits we can make__ 
+- We can make it a timed game
+  - As the time increases, we can make the game harder, the longer you last and the more asteroids you destroy -> the more points you get 
+- We can add enemies to the game as well that either shoot or move towards us 
+- We can add a high score system :100:
+- We can create a computer to play the game for us :computer:
 ## Helloooooo team members! :dog: :smile: :rocket:
 Here's how you get started: 
   1. Create a new Java project titled SpaceX
