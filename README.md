@@ -12,13 +12,14 @@ Here's how you get started:
     - The dev branch 
     - The master branch 
     
-    So the way branches work: 
-    - To find out how many branches there are after you clone the repo type the command __git branch__ 
-    - __IF YOU ARE MISSING A BRANCH DO NOT FRET__ just type the command __git pull origin branchname__ (may need to add -u in front of origin) (should use git branch again to check which branch you are on, and that you have successfully pulled the branch) - additionally you should switch to the newly pulled branch, and type the ls command to make sure the updated contents are on said branch
-    - To create a new branch, utilize the command __git branch newbranchname__. __WHEN CREATING A NEW BRANCH, MAKE SURE YOU ARE ON THE DEV BRANCH__. This will create a copy of the dev branch and basically change the name from dev to the new name you gave the branch 
-    - We will be utilizing two types of naming conventions when creating new branches: feature-featurename and hotfix-hotfixname. A reminder, ALWAYS MAKE SURE YOU ARE ON THE DEV BRANCH BEFORE CREATING A NEW BRANCH. The command __git checkout branchname__ will switch you from a specific branch to another. 
-    - __IF YOU WOULD LIKE TO PUSH YOUR MASTER TO THE REPO, PLEASE UTILIZE A PULL REQUEST, GOOGLE THIS IF YOU DO NOT KNOW WHAT IT IS__ 
+So the way branches work: 
+  - To find out how many branches there are after you clone the repo type the command __git branch__ 
+  - __IF YOU ARE MISSING A BRANCH DO NOT FRET__ just type the command __git pull origin branchname__ (may need to add -u in front of origin) (should use git branch again to check which branch you are on, and that you have successfully pulled the branch) - additionally you should switch to the newly pulled branch, and type the ls command to make sure the updated contents are on said branch
+  - To create a new branch, utilize the command __git branch newbranchname__. __WHEN CREATING A NEW BRANCH, MAKE SURE YOU ARE ON THE DEV BRANCH__. This will create a copy of the dev branch and basically change the name from dev to the new name you gave the branch 
+  - We will be utilizing two types of naming conventions when creating new branches: feature-featurename and hotfix-hotfixname. A reminder, ALWAYS MAKE SURE YOU ARE ON THE DEV BRANCH BEFORE CREATING A NEW BRANCH. The command __git checkout branchname__ will switch you from a specific branch to another. 
+  - __IF YOU WOULD LIKE TO PUSH YOUR MASTER TO THE REPO, PLEASE UTILIZE A PULL REQUEST, GOOGLE THIS IF YOU DO NOT KNOW WHAT IT IS__ 
     
+###Commands List
     *Creating a new Branch:*
     - __ git branch newbranchname__ - only creates the branch locally, to push your new branch and all of its changes to the remote repo on github you must use 
     1. __git status__ to see the changes you made
