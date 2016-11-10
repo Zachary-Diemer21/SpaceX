@@ -20,11 +20,11 @@ So things to remember:
   - __IF YOU WOULD LIKE TO PUSH YOUR MASTER TO THE REPO, PLEASE UTILIZE A PULL REQUEST, GOOGLE THIS IF YOU DO NOT KNOW WHAT IT IS__ 
 ##Commands List
     __Creating a new Branch:__
-    - __ git branch newbranchname__ only creates the branch locally, to push your new branch and all of its changes to the remote repo on github you must use 
-    1. __git status__ to see the changes you made
-    2. __git add filenamesdisplayedbygitstatus__ - if you delete something google how to push such changes appropriately
-    3. __git commit -m "description of commit goes here"__ :smile:
-    4. __git push -u origin branchname__ (If you just want to push the newly created branch to github you only have to use this command)
+    1. __ git branch newbranchname__ only creates the branch locally, to push your new branch and all of its changes to the remote repo on github you must use 
+    2. __git status__ to see the changes you made
+    3. __git add filenamesdisplayedbygitstatus__ - if you delete something google how to push such changes appropriately
+    4. __git commit -m "description of commit goes here"__ :smile:
+    5. __git push -u origin branchname__ (If you just want to push the newly created branch to github you only have to use this command)
     
     __Merging a Branch:__
     
