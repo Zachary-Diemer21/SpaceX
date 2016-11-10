@@ -12,7 +12,7 @@ Here's how you get started:
     - The dev branch 
     - The master branch 
     
-So the way branches work: 
+So things to remember: 
   - To find out how many branches there are after you clone the repo type the command __git branch__ 
   - __IF YOU ARE MISSING A BRANCH DO NOT FRET__ just type the command __git pull origin branchname__ (may need to add -u in front of origin) (should use git branch again to check which branch you are on, and that you have successfully pulled the branch) - additionally you should switch to the newly pulled branch, and type the ls command to make sure the updated contents are on said branch
   - To create a new branch, utilize the command __git branch newbranchname__. __WHEN CREATING A NEW BRANCH, MAKE SURE YOU ARE ON THE DEV BRANCH__. This will create a copy of the dev branch and basically change the name from dev to the new name you gave the branch 
@@ -26,7 +26,7 @@ So the way branches work:
     3. __git commit -m "description of commit goes here"__ :smile:
     4. __git push -u origin branchname__ (If you just want to push the newly created branch to github you only have to use this command)
     
-    __*Merging a Branch:*__
+    __Merging a Branch:__
     
     *Create a new branch*
     
@@ -46,7 +46,7 @@ So the way branches work:
     11. __ls__ 
     12. __git push -u origin dev__ (or the branch you would like to merge the new branch too) - __ONLY DO THIS IF YOU ARE SURE ABOUT THE MERGE YOU HAVE JUST CONDUCTED, THIS WILL PUSH ALL CHANGES TO THE REPO__
     
-    __*Deleting a branch locally and on the Repo:*__
+    __Deleting a branch locally and on the Repo:__
     
     1. First do __git branch__ and see what branches there are and which one you are on
     2. __git checkout diffbranchname__ to make sure you are not on that branch 
