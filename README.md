@@ -18,16 +18,15 @@ So the way branches work:
   - To create a new branch, utilize the command __git branch newbranchname__. __WHEN CREATING A NEW BRANCH, MAKE SURE YOU ARE ON THE DEV BRANCH__. This will create a copy of the dev branch and basically change the name from dev to the new name you gave the branch 
   - We will be utilizing two types of naming conventions when creating new branches: feature-featurename and hotfix-hotfixname. A reminder, ALWAYS MAKE SURE YOU ARE ON THE DEV BRANCH BEFORE CREATING A NEW BRANCH. The command __git checkout branchname__ will switch you from a specific branch to another. 
   - __IF YOU WOULD LIKE TO PUSH YOUR MASTER TO THE REPO, PLEASE UTILIZE A PULL REQUEST, GOOGLE THIS IF YOU DO NOT KNOW WHAT IT IS__ 
-    
-###Commands List
-    *Creating a new Branch:*
-    - __ git branch newbranchname__ - only creates the branch locally, to push your new branch and all of its changes to the remote repo on github you must use 
+##Commands List
+    __Creating a new Branch:__
+    - __ git branch newbranchname__ only creates the branch locally, to push your new branch and all of its changes to the remote repo on github you must use 
     1. __git status__ to see the changes you made
     2. __git add filenamesdisplayedbygitstatus__ - if you delete something google how to push such changes appropriately
     3. __git commit -m "description of commit goes here"__ :smile:
     4. __git push -u origin branchname__ (If you just want to push the newly created branch to github you only have to use this command)
     
-    *Merging a Branch:*
+    __*Merging a Branch:*__
     
     *Create a new branch*
     
@@ -47,7 +46,7 @@ So the way branches work:
     11. __ls__ 
     12. __git push -u origin dev__ (or the branch you would like to merge the new branch too) - __ONLY DO THIS IF YOU ARE SURE ABOUT THE MERGE YOU HAVE JUST CONDUCTED, THIS WILL PUSH ALL CHANGES TO THE REPO__
     
-    *Deleting a branch locally and on the Repo:*
+    __*Deleting a branch locally and on the Repo:*__
     
     1. First do __git branch__ and see what branches there are and which one you are on
     2. __git checkout diffbranchname__ to make sure you are not on that branch 
