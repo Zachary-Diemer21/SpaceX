@@ -4,10 +4,10 @@ A Java space game application
 ## Helloooooo team members! :dog: :smile: :rocket:
 Here's how you get started: 
   1. Create a new Java project titled SpaceX
-  2. Created a new package titled game and added the SpaceXDriver.java file to it
-  3. git clone the git repo to wherever you would like - you can do this by running this command 
+  2. git clone the git repo to wherever you would like - you can do this by running this command 
   __git clone git@github.com:Zachary-Diemer21/SpaceX.git__
   - You do not have to initialize a new repo, cloning it will do all of the work for you. ALSO if you want to be efficient, use the cd command to change to your Eclipse Java workspace folder and clone the repo inside of that workspace, this way every time you save the changes to these files you will be able to push from this location. :smile: Tis Highly recommended
+  3. Created a new package titled game in this new project 
   4. GIT Overview: There are only two branches: 
     * The dev branch 
     * The master branch 
