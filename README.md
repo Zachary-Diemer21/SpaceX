@@ -28,6 +28,6 @@ Here's how you get started:
     1. First do __git branch__ and see what branches there are and which one you are on
     2. __git checkout <diffbranchname>__ to make sure you are not on that branch 
     3. __git branch -d <branchnameyouwantdeleted>__ 
-    4. This command deletes the branch on Github - __git push --delete <branchnameyouwantdeleted>__ __NEVER EVER, EVER DELETE THE DEV BRANCH, OR MAY THE WRATH OF THOR :hammer: BE BROUGHT UPON YOU 
+    4. This command deletes the branch on Github - __git push --delete <branchnameyouwantdeleted>__ __NEVER EVER, EVER DELETE THE DEV BRANCH, OR MAY THE WRATH OF THOR :hammer: BE BROUGHT UPON YOU__
     
     
